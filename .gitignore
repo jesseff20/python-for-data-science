@@ -1,0 +1,51 @@
+# Não versionar arquivos da pasta data, exceto README.md
+/data/
+!/data/README.md
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Arquivos de ambiente virtual
+venv/
+env/
+ENV/
+
+# Modelos treinados
+models/
+*.pkl
+*.joblib
+
+# Logs e outputs
+*.log
+logs/
+
+# Arquivos temporários
+.tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Jupyter Notebooks (se houver)
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
